@@ -1,9 +1,9 @@
 import dataclasses
 from typing import Any, Callable, List, Optional, Type
 
-from wagtail.core.blocks.field_block import CharBlock, FieldBlock, RichTextBlock
-from wagtail.core.blocks.stream_block import StreamBlock
-from wagtail.core.fields import StreamField
+from wagtail.blocks.field_block import CharBlock, FieldBlock, RichTextBlock
+from wagtail.blocks.stream_block import StreamBlock
+from wagtail.fields import StreamField
 from wagtail.images.blocks import ImageChooserBlock
 
 import strawberry
