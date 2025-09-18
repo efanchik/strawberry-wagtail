@@ -1,6 +1,6 @@
 from strawberry_wagtail.utils import cached_property
 
-from wagtail.core.models import Page
+from wagtail.models import Page
 
 from django.apps import apps
 
