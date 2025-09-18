@@ -2,8 +2,8 @@ import re
 import types
 from typing import Iterable, List, Optional, Type
 
-from wagtail.core.fields import StreamField
-from wagtail.core.models import Page
+from wagtail.fields import StreamField
+from wagtail.models import Page
 
 from django.db.models.fields import Field
 
