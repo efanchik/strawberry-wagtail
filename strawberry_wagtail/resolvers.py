@@ -1,6 +1,6 @@
 from typing import Callable, List, Optional, Type
 
-from wagtail.core.models import Page
+from wagtail.models import Page
 
 
 def get_resolver_for_single_model(model_class: Type[Page]) -> Callable:
